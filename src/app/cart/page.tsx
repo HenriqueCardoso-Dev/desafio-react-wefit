@@ -23,9 +23,6 @@ export default function Cart () {
             total = total + ((ar[index].qtd ?? 1) * ar[index]. price);
         } 
 
-        console.log(total);
-        
-
         return total;
     }
 
